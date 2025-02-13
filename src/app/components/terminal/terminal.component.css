@@ -1,0 +1,45 @@
+/* Estilos para el componente */
+.component-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: none;
+    /* Quita las viñetas de la lista */
+    padding: 0;
+    /* Quita el relleno predeterminado de la lista */
+}
+
+/* Estilos para los elementos de lista */
+li {
+    margin-bottom: 10px;
+    /* Añade un espacio entre los elementos de la lista */
+    margin-bottom: 10px;
+    /* Añade un espacio entre los elementos de la lista */
+    padding: 10px;
+    /* Añade espacio interno a los elementos de la lista */
+    border-radius: 5px;
+    /* Añade bordes redondeados */
+    transition: box-shadow 0.3s;
+    /* Añade transición para la sombra */
+}
+li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra al hacer hover */
+  }
+/* Estilos para los títulos de las secciones */
+h2 {
+    color: #333;
+    /* Color del texto */
+    border-bottom: 2px solid #ccc;
+    /* Línea divisoria debajo del título */
+    padding-bottom: 5px;
+    /* Espacio entre el título y la lista */
+    margin-bottom: 10px;
+    /* Espacio adicional debajo del título */
+    color: #333; /* Color del texto */
+    border-bottom: 2px solid #ccc; /* Línea divisoria debajo del título */
+    padding-bottom: 5px; /* Espacio entre el título y la lista */
+    margin-bottom: 10px; /* Espacio adicional debajo del título */
+}
