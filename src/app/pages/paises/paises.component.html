@@ -1,0 +1,28 @@
+<div>
+    <div>
+        <h1>Paises page</h1>
+    </div>
+    <div>
+        <div>
+            <h3>Buscar un país</h3>
+            <input [(ngModel)]="paisBuscar" type="text" placeholder="Introduzca un país">
+
+        </div>
+        <div>
+            <button (click)="getPaisesWithFetch(paisBuscar)">Buscar pais</button>
+        </div>
+
+        <h2>Información del país</h2>
+        <h2>País: {{ paisRecibido.name.common }}</h2>
+        <h3>Capital</h3>
+        <img [src]="paisRecibido.flags.png" alt="bandera">
+        
+
+
+
+
+
+
+
+    </div>
+</div>

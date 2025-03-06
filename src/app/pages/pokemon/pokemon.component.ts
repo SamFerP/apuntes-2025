@@ -47,5 +47,30 @@ getPokemonWithFetch(id: number | string) {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
